@@ -1,0 +1,12 @@
+{
+  "plugins": {
+    "@textlint/markdown": {
+      // "" match non-ext file
+      "extensions": [""]
+    }
+  },
+  "filters": {},
+  "rules": {
+    "write-good": true
+  }
+}

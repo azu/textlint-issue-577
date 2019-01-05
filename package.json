@@ -1,0 +1,32 @@
+{
+  "name": "textlint-issue-577",
+  "version": "1.0.0",
+  "description": "Repo for https://github.com/textlint/textlint/issues/577",
+  "homepage": "https://github.com/azu/textlint-issue-577",
+  "bugs": {
+    "url": "https://github.com/azu/textlint-issue-577/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/textlint-issue-577.git"
+  },
+  "license": "MIT",
+  "author": "azu",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "main": "lib/textlint-issue-577.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "textlint ./NO_EXT_MARKDOWN_FILE"
+  },
+  "devDependencies": {
+    "textlint": "^11.2.1",
+    "textlint-rule-write-good": "^1.6.2"
+  }
+}
